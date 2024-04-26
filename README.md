@@ -5,8 +5,9 @@ Divided into apps and shortcuts
 some helpful shortcuts
 
 this one allow me to open an app directly from terminal
-alias 'open -a <app-name>'
-
+```
+$ alias 'open -a <app-name>'
+```
 
 
 
