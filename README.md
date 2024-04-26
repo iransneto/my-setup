@@ -9,17 +9,14 @@ this one allow me to open an app directly from terminal
 $ alias 'open -a <app-name>'
 ```
 
-
-
 # APPS for development
 ## Home brew
-Home brew is a powerfull package manager that we use to install apps by terminal
-https://brew.sh
+Home brew is a powerfull package manager that we use to install apps by terminal [https://brew.sh]
 
 ```sh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-configure the vars env to access homebrew accross the OS
+follow the steps suggested by brew to config the env vars
 
 ## Warp terminal
 A built-in rust-based terminal with AI integrated, helpful to ordinary developer thigs
@@ -28,15 +25,45 @@ $ brew install --cask warp
 ```
 
 ## Flutter
-Developer UI tool-kit for developing things
+UI tool-kit for developing beatiful apps LOL
 ```sh
 $ brew install flutter
 ```
 
-## Android Studio
-IDE to develop android app
+here you will also need to install
+- Roseta 2: to translate some flutter components process between arm and x86 architecture
+```sh
+$ sudo softwareupdate --install-rosetta --agree-to-license
+```
+
+- Android studio: to develop your flutter apps with
 ```sh
 $ brew install --cask android-studio
+```
+
+- Cocoapods: to use Flutter plugins with native iOS code
+flutter doc guide tell us to use the RubyGems pack manager, but I'll use brew instead
+```sh
+$ brew install cocoapods
+```
+
+- Xcode
+download form app store
+
+- Google chrome
+```sh
+$ brew install --cask google-chrome
+```
+
+## Nest JS
+
+- Install node
+```sh
+$ brew install node 
+```
+- Install Nest globaly
+```sh
+npm i -g @nestjs/cli
 ```
 
 # APPS for work
@@ -44,6 +71,16 @@ $ brew install --cask android-studio
 ## Discord
 ```sh
 $ brew install --cask discord
+```
+
+## Telegram
+```sh
+$ brew install --cask telegram
+```
+
+## Github desktop
+```sh
+$ brew install --cask github
 ```
 
 
