@@ -55,9 +55,9 @@ download form app store
 $ brew install --cask google-chrome
 ```
 
-## Nest JS
 
 - Install node
+## Nest JS
 ```sh
 $ brew install node 
 ```
@@ -65,7 +65,20 @@ $ brew install node
 ```sh
 npm i -g @nestjs/cli
 ```
+# APPS for productivity
+- rectangle: to manage windows
+```sh
+$ brew install rectangle 
+```
+- alt-tab: show preview and all windows, even the same app
+```sh
+$ brew install alt-tab 
+```
 
+- sublime text: for a similar notepad
+```sh
+$ brew install alt-tab 
+```
 # APPS for work
 
 ## Discord
